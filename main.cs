@@ -14,18 +14,25 @@ class Program
 
         Console.WriteLine("Insert your age here and I'll tell you what movies you can watch!");
         Console.WriteLine();
-      
+
         Console.WriteLine("your age goes here: ");
         age = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine();
 
-        if (age >= 17) {
+        if (age >= 17)
+        {
             Console.WriteLine("You're old enough to watch any R movie by yourself.");
-        } else if (age >= 13) {
+        }
+        else if (age >= 13)
+        {
             Console.WriteLine("For someone your age, PG-13 movies would be the best.");
-        } else if (age >= 5) {
+        }
+        else if (age >= 5)
+        {
             Console.WriteLine("You can watch only PG and G movies for now.");
-        } else {
+        }
+        else
+        {
             Console.WriteLine("Go take a nap, kid.");
         }
 
